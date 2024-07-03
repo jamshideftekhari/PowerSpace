@@ -1,0 +1,3 @@
+{
+  "AppFromDataMetaDataIdsToEntityNameMappings": "{\"%DataSourceName.AFD%\":\"Projekt Members E24\",\"%DataSourceValue.AFD%\":\"[@'Projekt Members E24']\",\"%SortFieldName.AFD%\":\"\\\"cre0e_classname\\\"\",\"%FilterFieldName.AFD%\":\"cre0e_classname\",\"%PrimaryNameField.AFD%\":\"cre0e_name\",\"%PrimaryNameFieldDisplayName.AFD%\":\"'Name'\",\"%SearchFieldName.AFD%\":\"cre0e_classname,cre0e_name\",\"%StartsWithFieldName.AFD%\":\"cre0e_classname\",\"%DeleteConfirmFieldName.AFD%\":\"cre0e_classname\",\"%SortDescending.AFD%\":\"SortDescending1\",\"%CopilotSinglePageScreen.ID%\":\"'Projekt Members E24 skærm'\",\"%BrowseContainer.ID%\":\"BrowseGallery1\",\"%DetailEditContainer.ID%\":\"EditForm1\"}"
+}

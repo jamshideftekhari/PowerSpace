@@ -1,0 +1,97 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "cre0e_projektmemberse24s",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "cre0e_projektmemberse24",
+    "Name": "Projekt Members E24",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "cre0e_classname": "Class Name",
+      "cre0e_memberid": "MemberID",
+      "cre0e_name": "Name",
+      "cre0e_projektmemberse24_AsyncOperations": "System Jobs",
+      "cre0e_projektmemberse24_BulkDeleteFailures": "Bulk Delete Failures",
+      "cre0e_projektmemberse24_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "cre0e_projektmemberse24_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "cre0e_projektmemberse24_ProcessSession": "Process Sessions",
+      "cre0e_projektmemberse24_SyncErrors": "Sync Errors",
+      "cre0e_projektmemberse24id": "Projekt Members E24",
+      "cre0e_teamid": "TeamID",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "Projekt Members E24",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Projekt Members E24 (Visninger)",
+    "Name": "_cre0e_projektmemberse24_views",
+    "RelatedEntityName": "Projekt Members E24",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "2202682c-cb5f-4c28-9056-eb1e092d7d63": "Projekt Members E24 Advanced Find View",
+      "4aab0c4b-5131-4853-bcc2-82b0a60f1a46": "Projekt Members E24 Associated View",
+      "65f71c68-419d-450a-b8a9-1eb68b59512b": "Inactive Projekt Members E24",
+      "7228355e-36a4-471c-8a30-732eb3921631": "Projekt Members E24 Lookup View",
+      "a41e9ea7-71db-459d-bb3c-d54c029ab164": "Active Projekt Members E24"
+    }
+  },
+  {
+    "DisplayName": "Status (Projekt Members E24)",
+    "Name": "cre0e_projektmemberse24_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Projekt Members E24"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Projekt Members E24",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (Projekt Members E24)",
+    "Name": "cre0e_projektmemberse24_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Projekt Members E24"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Projekt Members E24",
+    "Type": "OptionSetInfo"
+  }
+]
